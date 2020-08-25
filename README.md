@@ -6,4 +6,4 @@ Foi usado principalmente:
  - React
  - React Native
  - Socket.io
- 
+ - Node.js
