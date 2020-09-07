@@ -12,7 +12,7 @@ const server = http.Server(app);
 const io = socketio(server);
 
 
-mongoose.connect('mongodb+srv://<USUARIO>:<SENHA>@omini9-qimod.mongodb.net/Omni9?retryWrites=true&w=majority',
+mongoose.connect(
 {
     useNewUrlParser : true,
     useUnifiedTopology: true,
